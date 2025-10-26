@@ -10,6 +10,7 @@ A terminal-based implementation of the classic warehouse puzzle game Sokoban, de
 The game uses the **ncurses** library to render the game in the the terminal, handling inputs, drawing the map, and responding to user controls.
 
 Language: C
+
 Library: ncurses and standard C / system calls.
 
 ---
@@ -113,25 +114,3 @@ MySokoban_Epitech_Project_2021/
 ├── tests            # tests folder
 └── README.md        # this file
 ```
-
----
-
-## 💡 Bonus / Extensions Ideas
-
-Some enhancements you can consider or maybe already implemented:
-
-* Add a **menu / UI** before starting game (level selection, move counter).
-* Track **scores or best moves** per map.
-* Add **timer** or limited moves.
-* Provide a **map editor / loader** to create or modify levels.
-* Implement an **AI / solver** to solve maps automatically.
-* Add animations or visual improvements in terminal (colors, tile effects).
-
----
-
-## 🧪 Testing & Validation
-
-* Validate maps on startup: check correct character counts (one player `P`, equal or correct number of boxes vs storages).
-* Check for bounding walls or shape consistency.
-* Ensure that moves are valid (no pushing into wall or pushing more than one box).
-
